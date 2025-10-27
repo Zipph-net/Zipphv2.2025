@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    height: auto;
+    background-color: rgb(15, 15, 15); /* #0f0f0f */
+  
+  /* Gradientes que dibujan una cuadrícula sutil */
+  background-image: 
+    linear-gradient(rgb(12, 12, 12) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(12, 12, 12) 1px, transparent 1px);
+  
+  /* Define el tamaño de cada celda de la cuadrícula */
+  background-size: 5px 5px;
+    font-family: "Kode Mono", monospace; /* Cambia a Montserrat */
+    padding: 0 20px;
+}
+
+/* Resto de estilos usando Montserrat */
+.info1 {
+    color: rgba(255, 255, 255, 0.856);
+    max-width: 20vw;
+    margin-top: 2vh;
+    margin-left: 22vw;
+    margin-right: 0;
+}
+
+.info2 {
+    max-width: 40vw;
+    color: rgba(255, 255, 255, 0.856);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 22vw;
+}
+
+.TitleInfo1 {
+    margin-bottom: 3vh;
+    padding: 0;
+    text-align: left;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.DescInfo1 {
+    margin-bottom: 0vh;
+    padding: 0;
+    text-align: left;
+}
+
+.Container1, .Container2, .Container3 {
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background: rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    padding: 3vh;
+    box-shadow: 0px 0px 5px 1px #0000002a;
+}
+
+.Container1 {
+    background-image: url('../../../../public/svg/support3.svg');
+    background-size: 5vh; /* Tamaño inicial de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: 5% center; /* Posición inicial de la imagen */
+}
+
+.Container2 {
+    background-image: url('../../../../public/svg/uptime.svg');
+    background-size: 5vh; /* Tamaño inicial de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: 5% center; /* Posición inicial de la imagen */
+}
+
+.Container3 {
+    background-image: url('../../../../public/svg/connection.svg');
+    background-size: 5vh; /* Tamaño inicial de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: 5% center; /* Posición inicial de la imagen */
+}
+
+.TextContainer1, .TextContainer2, .TextContainer3 {
+    font-size: 1rem; /* Tamaño de fuente más pequeño */
+    max-width: 15vw; /* Ancho máximo del contenedor de texto */
+    margin-left: 6vh; /* Espacio entre la imagen y el texto */
+}
+
+.Container1:hover, .Container2:hover, .Container3:hover {
+    transition: all 0.3s;
+    transform: scale(1.02); /* Aumenta un 2% el tamaño original */
+    background-color: rgb(12, 12, 12); /* Color de fondo modificado */
+}

@@ -1,0 +1,98 @@
+.CardOfferts {
+  position: relative;
+  width: 330px;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  background: rgb(15, 15, 15);
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 0px 0px 2px 2px #00000046;
+  z-index: 5;
+}
+
+.CardOfferts:hover {
+  background-color: rgb(12, 12, 12);
+  transition: all 0.3s;
+}
+
+.CardOfferts:first-of-type .CardOfferts-content::before {
+  content: '🔥'; /* Emoji de fuego */
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  font-size: 24px;
+}
+
+.CardOffertBox {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+  background: rgb(20, 20, 20);
+}
+
+.priceOffert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 204, 255, 0.589);
+  box-shadow: 0px 0px 2px 2px #00000046;
+  color: white;
+  width: auto;
+}
+
+.priceTitleOffert {
+  font-weight: normal;
+}
+
+.priceTitleNormalOffert {
+  font-weight: normal;
+  padding-left: 2%;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.863);
+  text-decoration: line-through;
+}
+
+.CardOfferts-content {
+  padding-top: 10%;
+}
+
+.CardInfoOffert {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.CardMoreOffert {
+  border: 1px solid white;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.CardMoreOffert:hover {
+  cursor: pointer;
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.titulo_CardOfferts {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.description_CardOfferts {
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+/* Media Queries */
+
